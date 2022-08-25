@@ -30,7 +30,7 @@ void setTrafficColor(vehicle* car)
 }
 void setRoomTemp(vehicle* car)
 {
-	snit32 input_temp;
+	sint32 input_temp;
 	// local var in the function stack
 	printf("Enter the room temperature sir..\n");
 	scanf_s("%d", &input_temp);
@@ -48,7 +48,7 @@ void setRoomTemp(vehicle* car)
 }
 void setEngineTemp(vehicle* car)
 {
-	snit32 input_temp;
+	sint32 input_temp;
 	printf("Enter the engine temperature sir..\n");
 	scanf_s("%d", &input_temp);
 	if (input_temp < 100 || input_temp>150)
